@@ -204,12 +204,12 @@ a { text-decoration: none; color: inherit; }
 
 .compare-card {
   position: relative;
-  border-radius: var(--radius-lg);
+ 
   overflow: hidden;
-  box-shadow: 0 12px 48px rgba(74,61,232,.18);
-  width: 400px;
-  height: 425px;
-  background: #e8e7f5;
+  
+  width: 450px;
+  height: 450px;
+  
 }
 
 .compare-card__img-wrap {
