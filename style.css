@@ -2,7 +2,7 @@
    TOKENS & RESET
 ═══════════════════════════════════════ */
 :root {
-  --clr-bg:        #F0EFFA;
+  --clr-bg:        #F5EEFF;
   --clr-accent:    #D4F542;       /* lime yellow */
   --clr-primary:   #4A3DE8;       /* deep indigo */
   --clr-text:      #32284f;
@@ -104,7 +104,7 @@ a { text-decoration: none; color: inherit; }
    NAVBAR
 ═══════════════════════════════════════ */
 .navbar {
-  background: rgba(240,239,250,.88);
+  background: #F5EEFF;
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(74,61,232,.10);
