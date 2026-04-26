@@ -181,48 +181,53 @@
   <!-- ───────────── FEATURES ───────────── -->
   <section class="features" id="features">
     <div class="container">
+      <p class="features__kicker">Why Us</p>
       <h2 class="section-title">Features</h2>
 
       <div class="features__grid">
-        <div class="feature-card">
+        <!-- Hero card: Quality -->
+        <article class="feature-card feature-card--hero">
           <div class="feature-card__icon">
-            <img src="assets/icon_Features__Comparison.png" alt="" width="28" height="28" />
+            <img src="assets/icon_Features__Quality.png" alt="" width="32" height="32" />
           </div>
-          <div>
-            <h3 class="feature-card__title">Before/After Comparison</h3>
-            <p class="feature-card__desc">Easily preview your image before and after enhancement</p>
-          </div>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-card__icon">
-            <img src="assets/icon_Features__Speed.svg" alt="" width="28" height="28" />
-          </div>
-          <div>
-            <h3 class="feature-card__title">Speed</h3>
-            <p class="feature-card__desc">Average image processing takes just 11 seconds</p>
-          </div>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-card__icon">
-            <img src="assets/icon_Features__Upscaling.png" alt="" width="28" height="28" />
-          </div>
-          <div>
-            <h3 class="feature-card__title">Upscaling Options</h3>
-            <p class="feature-card__desc">Choose to increase image size by 2×, 3×, or 4×</p>
-          </div>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-card__icon">
-            <img src="assets/icon_Features__Quality.png" alt="" width="28" height="28" />
-          </div>
-          <div>
+          <div class="feature-card__body">
             <h3 class="feature-card__title">Quality</h3>
             <p class="feature-card__desc">Our algorithms remove compression artifacts and sharpen images, including faces, for clearer results</p>
           </div>
-        </div>
+        </article>
+
+        <!-- Wide card: Speed -->
+        <article class="feature-card feature-card--wide">
+          <div class="feature-card__big">
+            11<span class="feature-card__big-unit">sec</span>
+          </div>
+          <div class="feature-card__body">
+            <h3 class="feature-card__title">Speed</h3>
+            <p class="feature-card__desc">Average image processing takes just 11 seconds</p>
+          </div>
+        </article>
+
+        <!-- Comparison -->
+        <article class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/icon_Features__Comparison.png" alt="" width="28" height="28" />
+          </div>
+          <div class="feature-card__body">
+            <h3 class="feature-card__title">Before/After Comparison</h3>
+            <p class="feature-card__desc">Easily preview your image before and after enhancement</p>
+          </div>
+        </article>
+
+        <!-- Upscaling -->
+        <article class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/icon_Features__Upscaling.png" alt="" width="28" height="28" />
+          </div>
+          <div class="feature-card__body">
+            <h3 class="feature-card__title">Upscaling Options</h3>
+            <p class="feature-card__desc">Choose to increase image size by 2×, 3×, or 4×</p>
+          </div>
+        </article>
       </div>
     </div>
   </section>
