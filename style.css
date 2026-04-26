@@ -3,9 +3,9 @@
 ═══════════════════════════════════════ */
 :root {
   --clr-bg:        #F5EEFF;
-  --clr-accent:    #D4F542;       /* lime yellow */
-  --clr-primary:   #4A3DE8;       /* deep indigo */
-  --clr-text:      #32284f;
+  --clr-accent:    #E879F9;       /* lime yellow */
+  --clr-primary:   #7e429c;       /* deep indigo */
+  --clr-text:      #4a1f5c;
   --clr-muted:     #6B6B8A;
   --clr-footer:    #5A5E8A;
   --clr-white:     #FFFFFF;
@@ -19,7 +19,7 @@
   --shadow-btn:  0 4px 14px rgba(74,61,232,.30);
 
   --font-body:    'DM Sans', sans-serif;
-  --font-display: 'DM Serif Display', serif;
+  --font-display: 'Bodoni Moda', serif;
 
   --max-w: 1100px;
   --nav-h: 68px;
@@ -177,7 +177,7 @@ a { text-decoration: none; color: inherit; }
 .hero__title--accent {
   font-family: var(--font-display);
   color: var(--clr-primary);
-  font-style: italic;
+  font-style: normal;
 }
 
 .hero__title--plain {
