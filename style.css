@@ -339,11 +339,12 @@ a { text-decoration: none; color: inherit; }
   transform: scale(1.06) rotate(-4deg);
 }
 
-/* device-style mockup wrapping the screenshot */
+/* square screenshot card */
 .mockup {
   width: 100%;
+  aspect-ratio: 1 / 1;
   background: var(--clr-white);
-  border-radius: 18px;
+  border-radius: 14px;
   overflow: hidden;
   border: 1px solid rgba(126, 66, 156, .08);
   box-shadow:
@@ -358,32 +359,15 @@ a { text-decoration: none; color: inherit; }
     0 6px 14px rgba(74, 61, 232, .08);
 }
 
-.mockup__bar {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 11px 14px;
-  background: #faf7ff;
-  border-bottom: 1px solid rgba(126, 66, 156, .08);
-}
-.mockup__bar span {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #e3dcef;
-}
-.mockup__bar span:nth-child(1) { background: #ff7a85; }
-.mockup__bar span:nth-child(2) { background: #ffc94a; }
-.mockup__bar span:nth-child(3) { background: #5fd29a; }
-
 .mockup__screen {
-  aspect-ratio: 1 / 1;
+  width: 100%;
+  height: 100%;
   background: #f8f7fd;
 }
 .mockup__screen img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
 }
 
